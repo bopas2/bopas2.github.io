@@ -1,0 +1,133 @@
+---
+---
+
+@font-face {
+    font-family:"DejaVuSlanted";
+    src: url("/assets/fonts/DejaVuSansMono-BoldOblique.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"DejaVu";
+    src: url("/assets/fonts/DejaVuSansMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"DejaVuThin";
+    src: url("/assets/fonts/DejaVuSansMono.ttf") format("truetype");
+}
+
+
+.background {
+  background-image: url(/images/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #4286f4;
+}
+
+.name {
+  font-family:"DejaVuThin";
+  margin-left: 150px;
+  margin-right: 150px;
+  color: whitesmoke;
+  font-size: 50px;
+  padding-bottom: 14px;
+  text-align: center;
+}
+
+.bio {
+    font-family:"DejaVuThin";
+    margin-left: 50px;
+    margin-right: 50px;
+    color: whitesmoke;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: auto;
+    left: 50%;
+    width: 35%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px whitesmoke;
+    border-radius: 25px;
+}
+
+.img-cont {
+    display: inline-block;
+    width: fit-content;
+}
+
+.bottom {
+    float: left;
+    max-width: 100%;
+    margin: auto;
+    height: 20px;
+    margin: 5px;
+    background-color: #134fb1;
+}
+
+.me {
+  object-fit: contain;  
+  border: 10px solid #e6e6fa;
+  border-radius: 50%;
+  border-width: thick;
+  max-width: 250px;
+  height: auto;
+  margin-top: 50px;
+  left: 50%;
+}
+
+.button {
+    padding: 7px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .intro-content { 
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .intro-content { 
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .intro-content { 
+        width: 95%;
+        margin-top: 50px;
+        margin-bottom: auto;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+    }
+
+    .background {
+        background-image: url(/images/background-mobile.jpg);
+    }
+}
+
+@import "bootstrap";
