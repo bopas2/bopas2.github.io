@@ -108,6 +108,12 @@
     }
 }
 
+@media only screen and (max-width: 1300px) {
+    .name {
+      font-size: 35px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .intro-content { 
         width: 65%;
