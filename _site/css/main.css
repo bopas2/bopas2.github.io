@@ -20,11 +20,15 @@
 
 .buttons { display: flex; flex-direction: row; justify-content: space-around; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; width: 100%; }
 
-@media only screen and (max-width: 1500px) { .intro-content { width: 50%; } }
+@media only screen and (max-width: 1700px) { .intro-content { width: 50%; } }
+@media only screen and (max-width: 1300px) { .name { font-size: 40px; margin-top: 5px; } }
+@media only screen and (max-width: 1200px) { .intro-content { width: 65%; } }
 @media only screen and (max-width: 1000px) { .intro-content { width: 70%; } }
-@media only screen and (max-width: 700px) { .intro-content { width: 95%; margin-top: 50px; margin-bottom: auto; }
+@media only screen and (max-width: 850px) { .intro-content { width: 85%; } }
+@media only screen and (max-width: 705px) { .intro-content { width: 95%; margin-top: 50px; margin-bottom: 50px; }
   .buttons { flex-wrap: wrap; }
-  .background { background-image: url(/images/background-mobile.jpg); } }
+  .background { background-image: url(/images/background-mobile.jpg); }
+  .name { font-size: 30px; margin-top: 5px; } }
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
@@ -2028,3 +2032,4 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 @media print { .visible-print-inline-block { display: inline-block !important; } }
 
 @media print { .hidden-print { display: none !important; } }
+@media only screen and (max-width: 550px) { .name { font-size: 25px; margin-top: 5px; } }

@@ -110,7 +110,8 @@
 
 @media only screen and (max-width: 1300px) {
     .name {
-      font-size: 35px;
+      font-size: 40px;
+      margin-top: 5px;
     }
 }
 
@@ -128,11 +129,11 @@
 
 @media only screen and (max-width: 850px) {
     .intro-content { 
-        width: 70%;
+        width: 85%;
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 705px) {
     .intro-content { 
         width: 95%;
         margin-top: 50px;
@@ -146,6 +147,18 @@
     .background {
         background-image: url(/images/background-mobile.jpg);
     }
+
+    .name {
+        font-size: 30px;
+        margin-top: 5px;
+    }
 }
 
 @import "bootstrap";
+
+@media only screen and (max-width: 550px) {
+    .name {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+}
