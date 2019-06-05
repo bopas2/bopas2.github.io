@@ -108,7 +108,19 @@
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .intro-content { 
+        width: 65%;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
+    .intro-content { 
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
     .intro-content { 
         width: 70%;
     }
