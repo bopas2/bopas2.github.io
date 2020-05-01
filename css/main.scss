@@ -104,6 +104,10 @@ a:active { color: #000; }
         font-size: 30px;
         margin-top: 5px;
     }
+    
+    .links {
+        font-size: 16px;
+    }
 }
 
 @import "bootstrap";
@@ -112,5 +116,9 @@ a:active { color: #000; }
     .name {
         font-size: 25px;
         margin-top: 5px;
+    }
+    
+    .links {
+        font-size: 15px;
     }
 }
