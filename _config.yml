@@ -1,12 +1,15 @@
 # Site settings
-title:
+title: My Personal Website
 email:
-author:
+author: Thomas Lang
 description:
-url:
+url: bopas2.github.io
 
 # Build settings
 permalink: :title/
 sass:
   sass_dir: css
 theme: jekyll-theme-minimal
+
+# Google Analytics
+google_analytics: UA—167996569-1
