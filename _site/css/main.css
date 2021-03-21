@@ -3,7 +3,9 @@
 @font-face { font-family: "DejaVu"; src: url("/assets/fonts/DejaVuSansMono-Bold.ttf") format("truetype"); }
 @font-face { font-family: "DejaVuThin"; src: url("/assets/fonts/DejaVuSansMono.ttf") format("truetype"); }
 @font-face { font-family: "Raleway"; src: url("/assets/fonts/Raleway-Light.ttf") format("truetype"); }
-.background { background-position: center center; background-repeat: no-repeat; background-size: cover; background-color: #FFFFFF; background-attachment: fixed; margin-bottom: fill; }
+li:not(:last-child) { margin-bottom: 8px; }
+
+.background { background-position: center center; background-repeat: no-repeat; background-size: cover; background-color: #FAF9F6; background-attachment: fixed; margin-bottom: fill; }
 
 .name { font-family: 'Raleway' , sans-serif, Helvetica, Verdana; color: whitesmoke; font-size: 50px; padding-bottom: 14px; text-align: center; }
 
@@ -11,23 +13,33 @@
 
 .bio2 { font-family: 'Raleway' , sans-serif, Helvetica, Verdana; padding-left: 10%; padding-right: 10%; color: black; font-weight: bold; font-size: 16px; padding-bottom: 10px; }
 
-.intro-content { display: flex; flex-direction: column; margin-top: 3%; margin-bottom: 0%; width: 35%; align-items: center; align-content: center; justify-content: flex-start; margin-left: auto; margin-right: auto; border: 5px #111111; border-radius: 5px; }
+.intro-content { display: flex; flex-direction: column; margin-top: 5%; margin-bottom: 5%; width: 100%; align-items: center; align-content: space-around; justify-content: flex-start; margin-left: auto; margin-right: auto; border: 5px #111111; border-radius: 5px; }
+
+.biography { display: flex; flex-direction: column; margin-top: 5%; margin-bottom: 5%; width: 100%; align-items: center; align-content: center; justify-content: flex-start; margin-left: auto; margin-right: auto; border: 5px #111111; border-radius: 5px; }
 
 .links { font-family: 'Raleway' , sans-serif, Helvetica, Verdana; color: black; font-weight: bolder; font-size: 20px; margin-left: 5px; margin-right: 5px; }
 
-.me { object-fit: contain; border: 10px solid #e6e6fa; border-radius: 5%; border-width: thin; max-width: 200px; height: auto; margin-top: 50px; left: 50%; }
+.me { object-fit: contain; border: 2px solid #FFFFFF; border-radius: 100%; border-width: thin; max-width: 300px; height: auto; margin-top: 5px; margin-bottom: 15px; left: 50%; }
 
-.name { font-family: 'Raleway' , sans-serif, Helvetica, Verdana; color: black; font-weight: bolder; font-size: 40px; margin-left: 5px; padding-top: 15px; margin-right: 5px; }
+.meTwo { border: 2px solid #FFFFFF; border-radius: 100%; border-width: thin; max-width: 250px; height: auto; margin-top: 5px; margin-bottom: 30px; left: 50%; }
+
+.name { font-family: 'Raleway' , sans-serif, Helvetica, Verdana; color: black; font-weight: bolder; font-size: 75px; margin-left: 5px; padding-top: 15px; margin-right: 5px; }
 
 .button { padding: 7px; }
+
+.aboutimage { margin-bottom: 15px; }
 
 .parent { width: 100%; height: 100%; overflow: hidden; }
 
 .child { height: 100%; margin-right: -50px; /* maximum width of scrollbar */ padding-right: 50px; /* maximum width of scrollbar */ overflow-y: scroll; }
 
-.buttons { display: flex; flex-direction: row; justify-content: center; width: 100%; }
+.buttons { display: flex; margin-bottom: 15px; flex-direction: row; justify-content: center; width: 100%; }
 
 a:link { color: #000; }
+
+.iconify { display: inline-block; font-size: 55px; margin-left: 10px; margin-right: 10px; }
+
+.iconify:hover { font-size: 65px; }
 
 /* unvisited link  */
 a:visited { color: #000; }
